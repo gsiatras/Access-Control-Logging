@@ -1,7 +1,7 @@
-all: logger acmonitor test_aclog
+all: logger.so acmonitor test_aclog
 
 logger.so: logger.c
-	gcc -Wall -fPIC -shared -o logger.so logger.c -lcrypto -ldl
+	gcc -Wall -shared -o logger.so -fPIC logger.c -lcrypto -ldl -Wno-deprecated-declarations
 
 
 acmonitor: acmonitor.c
