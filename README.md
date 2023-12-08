@@ -1,7 +1,10 @@
 # Access-Control-Logging			
-Developed by Georgios Michail Siatras and Andreas Karogiannis					
-TUC: Security of Systems and Services			
-Proffessor: Sotirios Ioannidis			
+Developed by Georgios Michail Siatras and Andreas Karogiannis	        
+
+TUC: Security of Systems and Services		            
+
+Proffessor: Sotirios Ioannidis		        
+
 
 ***Access Control Logging tool***			
 The tool was created following the given instructions.		
